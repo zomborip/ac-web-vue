@@ -1,29 +1,22 @@
-# ac-web-vue
+# AC Web *(Vue - Tailwind)*
 
-This template should help get you started developing with Vue 3 in Vite.
+## Kritérium:
 
-## Recommended IDE Setup
+*Node.js >= v21.6*
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Beüzemelés:
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Töltsd le a repót
+- A letöltött mappában `npm install`
 
-## Project Setup
+## Használat:
 
-```sh
-npm install
-```
+- Dev HotReload futtatás: `npm run dev`
+- Buildelés: `npm run build`
 
-### Compile and Hot-Reload for Development
+## Build:
 
-```sh
-npm run dev
-```
+- `npm run build`
+- Majd a *dist* mappá tartalmát egy webszerverre töltsd fel
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
