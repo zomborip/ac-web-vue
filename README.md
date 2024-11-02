@@ -1,22 +1,16 @@
-# AC Web *(Vue - Tailwind)*
+# AC Web 
 
-## Kritérium:
+Az AC Studio & Live új weboldala
 
-*Node.js >= v21.6*
+[acstudio.sch.bme.hu](https://acstudio.sch.bme.hu)
 
-## Beüzemelés:
+## Telepítés
 
+A következők szükségesek a projekt futtatásához:
+- Node.js
+- Vue.js
+- Tailwind.css
 
-- Töltsd le a repót
-- A letöltött mappában `npm install`
+## Köszönetnyílvánítás
 
-## Használat:
-
-- Dev HotReload futtatás: `npm run dev`
-- Buildelés: `npm run build`
-
-## Build:
-
-- `npm run build`
-- Majd a *dist* mappá tartalmát egy webszerverre töltsd fel
-
+Köszönjük a KSZK-nak, hogy adottt alánk szervert és segített a konfigurálásban <3

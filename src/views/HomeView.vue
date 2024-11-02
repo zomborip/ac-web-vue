@@ -52,7 +52,7 @@ document.title = "AC Studio & Live"
           <a href="http://ac-hiba.cshee.hu" target="_blank"> 
             <div class="felx text-lg font-semibold italic text-sky-100 mt-2 cursor-pointer">- Hibakezelő</div>            
           </a>
-          <a href="http://bsstudio.hu" target="_blank">
+          <a href="#" target="_blank">
             <div class="felx text-lg font-semibold italic text-sky-100 mt-2 cursor-pointer">- AC Wiki</div>
           </a>
           <a href="https://simonyi.bme.hu/hu/berles" target="_blank">

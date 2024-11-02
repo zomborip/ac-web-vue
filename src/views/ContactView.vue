@@ -1,5 +1,6 @@
   <script setup>
 import Header from '../components/Header.vue'
+import Felelos from '@/components/Felelos.vue'
 
 document.title = "AC - Kapcsolat"
 
@@ -12,95 +13,49 @@ document.title = "AC - Kapcsolat"
     
       <div class="felx text-xl font-bold text-sky-200">Kapcsolat</div>
       <div class="flex text-md text-white mt-2">
-        1117 Budapest, BME Schönherz Kollégium, Irinyi József utca 42 <br> <br> Elérni minket az ac-info@simonyi.bme.hu-n tudsz.
+        1117 Budapest, BME Schönherz Kollégium, Irinyi József utca 42. I. emelet 106 Stúdió
       </div>
       
       <div class="felx text-xl font-bold text-sky-200 mt-7">Felelősök</div>
-      
-        <!-- Emberke -->
-        <div class="flex flex-col items-center md:items-start md:flex-row w-full mt-3">
-          <!-- Bal -->
-          <div class="flex flex-none h-min">
-            <img class="flex flex-none h-[11rem]" src="@/assets/barni.png" alt="">
-          </div>
-          <!-- Jobb -->
-          <div class="flex flex-row w-auto md:px-3">
-            <div class="flex flex-col items-center md:items-start">
-              <div class="flex text-lg font-semibold text-cyan-500 mt-2">Körvezető</div>
-              <div class="flex text-lg font-normal text-white">Szántó Barnabás András</div>
-              <div class="flex text-lg font-normal text-white"><a href="mailto://szanto.barnabas@simonyi.bme.hu">szanto.barnabas@simonyi.bme.hu</a></div>
-              <div class="flex text-lg font-normal text-white"><a href="https://pek.sch.bme.hu/profiles/bszanto">PéK Profil</a></div>
-            </div>
-          </div>
-          <!-- Podcast -->
-          <div class="flex w-auto px-3 md:px-0 md:pl-16 md:pt-8 text-lg font-normal text-white">
-            
-          </div>
-        </div>
 
-        <!-- Emberke -->
-        <div class="flex w-full flex-col items-center md:items-start md:flex-row mt-10 md:mt-7">
-          <!-- Bal -->
-          <div class="flex flex-none h-min">
-            <img class="flex flex-none h-[11rem]" src="@/assets/nopic.png" alt="">
-          </div>
-          <!-- Jobb -->
-          <div class="flex flex-row w-auto px-3">
-            <div class="flex flex-col items-center md:items-start">
-              <div class="flex text-lg font-semibold text-cyan-500 mt-2">Stúdióvezető</div>
-              <div class="flex text-lg font-normal text-white">Kiss Ábel</div>
-              <div class="flex text-lg font-normal text-white"><a href="mailto://kiss.abel@simony.bme.hu">kiss.abel@simony.bme.hu</a></div>
-              <div class="flex text-lg font-normal text-white"><a href="https://pek.sch.bme.hu/profiles/kissa">PéK Profil</a></div>
-            </div>
-          </div>
-          <!-- Podcast -->
-          <div class="flex w-auto px-3 md:px-0 md:pl-16 md:pt-8 text-lg font-normal text-white">
-            
-          </div>
-        </div>
-    
-        <!-- Emberke -->
-        <div class="flex w-full flex-col items-center md:items-start md:flex-row mt-10 md:mt-7">
-          <!-- Bal -->
-          <div class="flex flex-none h-min">
-            <img class="flex flex-none h-[11rem]" src="@/assets/peti.png" alt="">
-          </div>
-          <!-- Jobb -->
-          <div class="flex flex-row w-auto px-3">
-            <div class="flex flex-col items-center md:items-start">
-              <div class="flex text-lg font-semibold text-cyan-500 mt-2">Gazdasági Felelős</div>
-              <div class="flex text-lg font-normal text-white">Zombori Péter</div>
-              <div class="flex text-lg font-normal text-white"><a href="mailto://zombori.peter@simonyi.bme.hu">zombori.peter@simonyi.bme.hu</a></div>
-              <div class="flex text-lg font-normal text-white"><a href="https://pek.sch.bme.hu/profiles/zomborip">PéK Profil</a></div>
-            </div>
-          </div>
-          <!-- Podcast -->
-          <div class="flex w-auto px-3 md:px-0 md:pl-16 md:pt-8 text-lg font-normal text-white">
-            
-          </div>
-        </div>
+        <Felelos 
+          nev="Szántó Barnabás" 
+          poszt="Körvezető"
+          email="szanto.barnabas@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/bszanto"
+          kep="barni.png"
+          szoveg=""
+        />
 
+        <Felelos 
+          nev="Kiss Ábel" 
+          poszt="Stúdióvezető"
+          email="kiss.abel@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/kissa"
+          kep="nopic.png"
+          szoveg=""
+        />
 
-        <!-- Emberke -->
-        <div class="flex w-full flex-col items-center md:items-start md:flex-row mt-10 md:mt-7">
-          <!-- Bal -->
-          <div class="flex flex-none h-[11rem]">
-            <img class="flex flex-none h-[11rem]" src="@/assets/nopic.png" alt="">
-          </div>
-          <!-- Jobb -->
-          <div class="flex flex-row w-auto px-3">
-            <div class="flex flex-col items-center md:items-start">
-              <div class="flex text-lg font-semibold text-cyan-500 mt-2">Karbantartás Felelős</div>
-              <div class="flex text-lg font-normal text-white">Kurucz Márton</div>
-              <div class="flex text-lg font-normal text-white"><a href="mailto://kurucz.marton@simonyi.bme.hu">kurucz.marton@simonyi.bme.hu</a></div>
-              <div class="flex text-lg font-normal text-white"><a href="https://pek.sch.bme.hu/profiles/kmarci2002">PéK Profil</a></div>
-            </div>
-          </div>
-          <!-- Podcast -->
-          <div class="flex w-auto px-3 md:px-0 md:pl-16 md:pt-8 text-lg font-normal text-white">
-            
-          </div>
-        </div>
+        <Felelos 
+          nev="Zombori Péter" 
+          poszt="Gazdasági Felelős"
+          email="zombori.peter@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/zomborip"
+          kep="peti.png"
+          szoveg=""
+        />
+
+        <Felelos 
+          nev="Dombora Melinda" 
+          poszt="Tanfolyam Felelős"
+          email="dombora.melinda@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/melinda.dombora"
+          kep="nopic.png"
+          szoveg=""
+        />
+        
+
+        
 
     </div>
   </div>
