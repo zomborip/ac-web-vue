@@ -9,7 +9,7 @@ document.title = "AC - Kapcsolat"
 <template>
   <div class="flex flex-col w-full h-full opacity-65 md:mt-6 md:items-center md:p-2 bg-slate-900 md:w-5/6 lg:w-2/3 md:rounded-xl md:shadow-xl md:shadow-black">
     <Header active="0"/>
-    <div class="flex flex-col w-full h-auto px-8 py-4">
+    <div class="flex flex-col w-full h-auto px-8 py-4 overflow-x-hidden">
     
       <div class="felx text-xl font-bold text-sky-200">Kapcsolat</div>
       <div class="flex text-md text-white mt-2">
@@ -23,16 +23,16 @@ document.title = "AC - Kapcsolat"
           poszt="Körvezető"
           email="szanto.barnabas@simonyi.bme.hu"
           pek="https://pek.sch.bme.hu/profiles/bszanto"
-          kep="barni.png"
+          kep="barni_xmas.png"
           szoveg=""
         />
 
         <Felelos 
           nev="Kiss Ábel" 
-          poszt="Stúdióvezető"
+          poszt="Körvezető Helyettes"
           email="kiss.abel@simonyi.bme.hu"
           pek="https://pek.sch.bme.hu/profiles/kissa"
-          kep="nopic.png"
+          kep="abel_xmas.png"
           szoveg=""
         />
 
@@ -41,7 +41,7 @@ document.title = "AC - Kapcsolat"
           poszt="Gazdasági Felelős"
           email="zombori.peter@simonyi.bme.hu"
           pek="https://pek.sch.bme.hu/profiles/zomborip"
-          kep="peti.png"
+          kep="peti_xmas.png"
           szoveg=""
         />
 
@@ -50,9 +50,38 @@ document.title = "AC - Kapcsolat"
           poszt="Tanfolyam Felelős"
           email="dombora.melinda@simonyi.bme.hu"
           pek="https://pek.sch.bme.hu/profiles/melinda.dombora"
-          kep="nopic.png"
+          kep="melcsi_xmas.png"
           szoveg=""
         />
+
+        <Felelos 
+          nev="Simai Soma" 
+          poszt="Karbantartás Felelős"
+          email="simai.soma@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/somasimai"
+          kep="soma_xmas.png"
+          szoveg=""
+        />
+
+        <Felelos 
+          nev="Váradi Szabolcs Károly" 
+          poszt="HR Vezető"
+          email="varadi.szabolcs.karoly@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/szabchi"
+          kep="szabi_xmas.png"
+          szoveg=""
+        />
+
+        <Felelos 
+          nev="Siklósi Árpád Gellért" 
+          poszt="Stúdió Vezető"
+          email="siklosi.arpad.gellert@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/sikagelo"
+          kep="siki.png"
+          szoveg=""
+        />
+
+
         
 
         
