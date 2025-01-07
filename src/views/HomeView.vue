@@ -46,14 +46,8 @@ document.title = "AC Studio & Live"
           <a href="https://drive.google.com/file/d/18hA571eyv0sKjieV01y7hBGNPcUMyFVQ/view?usp=sharing" target="_blank">
             <div class="felx text-lg font-extrabold italic text-rose-500 mt-2 cursor-pointer">- FELKÉRÉS</div>
           </a>
-          <a href="https://docs.google.com/document/d/1RToMD2bOEVMfnuTAGJVwE_mr8QSs1kVpLF1sSksjWnk/edit?usp=sharing" target="_blank">
+          <a href="https://docs.google.com/document/d/10yVFvk_AWXK01etN0a4Zm0XVnNbgK-zWaEmASVd8-xY/edit?usp=sharing" target="_blank">
             <div class="felx text-lg font-semibold italic text-sky-100 mt-2 cursor-pointer">- Aktuális LOG</div>
-          </a>
-          <a href="http://ac-hiba.cshee.hu" target="_blank"> 
-            <div class="felx text-lg font-semibold italic text-sky-100 mt-2 cursor-pointer">- Hibakezelő</div>            
-          </a>
-          <a href="#" target="_blank">
-            <div class="felx text-lg font-semibold italic text-sky-100 mt-2 cursor-pointer">- AC Wiki</div>
           </a>
           <a href="https://simonyi.bme.hu/hu/berles" target="_blank">
             <div class="felx text-lg font-semibold italic text-sky-100 mt-2 cursor-pointer">- Simonyi Bérlés</div>
