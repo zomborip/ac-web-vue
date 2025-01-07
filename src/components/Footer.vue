@@ -17,4 +17,7 @@
 
     </div>
   </div>
+  <div class="flex bg-black text-slate-400 justify-center px-4 md:px-[20%]">
+    Made with ❤️ by Peti
+  </div>
 </template>

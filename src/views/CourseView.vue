@@ -11,10 +11,10 @@ document.title = "AC - Tanfolyam"
 
         <div class="felx text-xl font-bold text-sky-200">Tanfolyam</div>
         <div class="flex text-md text-white mt-2">
-          A tanfolyam alkalmával betekinthést szerezhetsz a rendezvényipar minden részlegével. 
+          A tanfolyam alkalmával betekintést szerezhetsz a rendezvényipar minden részlegével. 
           Ezentúl felkerülsz az ac-tanfolyam@ levlistára, ahol számos hasznos információval értesülhetsz. 
           <br>
-          Az előadásokon és gyakorlati alkalmokon hallani fogsz a következő témákról: hangtechnika, elektroakusztika, 
+          Az előadásokon és gyakorlati alkalmakon hallani fogsz a következő témákról: hangtechnika, elektroakusztika, 
           equalizerek, dinamikaszabályzók, effektek, keverőpultok, rendszertechnika, fénytechnika és vizuális effektek. 
         </div>
         
@@ -38,7 +38,7 @@ document.title = "AC - Tanfolyam"
       
         <div class="felx text-xl font-bold text-sky-200 mt-7">Jelentkezés</div>
         <div class="flex text-md text-white mt-2">
-            Tanfolyamot mind a két félévben indítunk. További információkért keresd a körvezetőt.
+          Tanfolyamot mind a két félévben indítunk. További információkért keresd bátran a mindenkori tanfolyamfelelőst.
         </div>
       
       </div>

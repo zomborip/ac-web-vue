@@ -11,8 +11,9 @@ document.title = "AC - Bérlés"
     <div class="flex flex-col w-full h-auto px-8 py-4">
     
       <div class="felx text-xl font-bold text-sky-200">Felkérési Szabályzat</div>
-      <div class="flex text-md text-white mt-2">
+      <div class="flex flex-col text-md text-white mt-2">
           Kérünk mindenkit, hogy eszközbérlések, felkérések előtt tanulmányozzák át a Felkérési Szabályzatot!
+          <a class=" font-bold text-indigo-400" href="https://drive.google.com/file/d/18hA571eyv0sKjieV01y7hBGNPcUMyFVQ/view?usp=sharing" target="_blank">[Felkérési Szabályzat Kivonat]</a> 
       </div>
       
       <br>
