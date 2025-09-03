@@ -19,20 +19,20 @@ document.title = "AC - Kapcsolat"
       <div class="felx text-xl font-bold text-sky-200 mt-7">Felelősök</div>
 
         <Felelos 
-          nev="Szántó Barnabás" 
+          nev="Vizi Kristóf Levente" 
           poszt="Körvezető"
-          email="szanto.barnabas@simonyi.bme.hu"
-          pek="https://pek.sch.bme.hu/profiles/bszanto"
-          kep="barni_xmas.png"
+          email="vizi.kristof.levente@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/vizi.k"
+          kep="nopic.png"
           szoveg=""
         />
 
         <Felelos 
-          nev="Kiss Ábel" 
+          nev="Váradi Szabolcs Károly" 
           poszt="Körvezető Helyettes"
-          email="kiss.abel@simonyi.bme.hu"
-          pek="https://pek.sch.bme.hu/profiles/kissa"
-          kep="abel_xmas.png"
+          email="varadi.szabolcs.karoly@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/szabchi"
+          kep="szabi_xmas.png"
           szoveg=""
         />
 
@@ -46,11 +46,11 @@ document.title = "AC - Kapcsolat"
         />
 
         <Felelos 
-          nev="Dombora Melinda" 
+          nev="Killin Beáta" 
           poszt="Tanfolyam Felelős"
-          email="dombora.melinda@simonyi.bme.hu"
-          pek="https://pek.sch.bme.hu/profiles/melinda.dombora"
-          kep="melcsi_xmas.png"
+          email="killin.beata@simonyi.bme.hu"
+          pek="https://pek.sch.bme.hu/profiles/killinbea"
+          kep="pamacs_fb.png"
           szoveg=""
         />
 
@@ -60,15 +60,6 @@ document.title = "AC - Kapcsolat"
           email="simai.soma@simonyi.bme.hu"
           pek="https://pek.sch.bme.hu/profiles/somasimai"
           kep="soma_xmas.png"
-          szoveg=""
-        />
-
-        <Felelos 
-          nev="Váradi Szabolcs Károly" 
-          poszt="HR Vezető"
-          email="varadi.szabolcs.karoly@simonyi.bme.hu"
-          pek="https://pek.sch.bme.hu/profiles/szabchi"
-          kep="szabi_xmas.png"
           szoveg=""
         />
 
